@@ -12,7 +12,7 @@ import Campaign from './components/Campaign'
 
 const Page = () => {
     return (
-      <div>
+      <div className='bg-oohpoint-grey-200'>
       <Hero/>
       <DigitalAgency/>
       <OurClient/>
