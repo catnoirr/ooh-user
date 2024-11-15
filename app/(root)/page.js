@@ -1,6 +1,6 @@
-import SearchBar from "@/components/Home/SearchBar"
+// import SearchBar from "@/components/Home/SearchBar"
 import LocationInputBox from "@/components/Home/LocationInputBox"
-import CarouselComponent from "@/components/Home/Carousel"
+// import CarouselComponent from "@/components/Home/Carousel"
 import CampaignsDisplay from "@/components/Home/CampaignsDisplay"
 import CouponCarousel from "@/components/Home/CouponCarousel"
 import SocialComponent from "@/components/Home/SocialComponent"
