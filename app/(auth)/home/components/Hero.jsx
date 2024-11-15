@@ -1,8 +1,15 @@
+"use client"
 import React from 'react';
 import { FaCheck } from 'react-icons/fa';
+import { useRouter } from 'next/navigation';
 
 
 const AdvertisingBanner = () => {
+  const router = useRouter();
+
+  const handleJoinNow = () => {
+    router.push('/sign-up'); // Navigate to the signup page
+  };
   return (
     
     <div className="flex flex-col  p-4  bg-purtle-700  ">
@@ -36,7 +43,7 @@ const AdvertisingBanner = () => {
         Be a leader, grow your network, and shape the future of advertising on your campus!Be a leader, grow your network, and shape the future of advertising on your campus!
         </p>
         <div className="flex  sm:flex-row md:justify-start  gap-4">
-          <button className="bg-green-100  text-green-400 md:py-4 md:px-6 px-3 py-3 rounded-lg shadow-md ">
+          <button className="bg-green-100  text-green-400 md:py-4 md:px-6 px-3 py-3 rounded-lg shadow-md "  onClick={handleJoinNow}>
             Join Now
           </button>
           <button className="border text-white md:py-2 md:px-6 px-3 py-3 rounded-lg ">
